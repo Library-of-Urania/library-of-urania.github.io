@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Research Library Indexer is a private, personal tool for organising and searching a scholarly library.">
+<title>Research Library Indexer | Library of Urania</title>
+<style>
+:root{color-scheme:light;--ink:#203333;--muted:#526360;--paper:#f7f5ef;--line:#d3dcd5;--accent:#256453}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:2rem}
+body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.7 Georgia,serif}
+header,main,footer{max-width:850px;margin:auto;padding:2rem 1.5rem}
+header{border-bottom:1px solid var(--line)}.brand{font:700 .8rem/1.5 system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+nav{display:flex;gap:1.5rem;flex-wrap:wrap;margin-top:1rem;font:15px/1.6 system-ui,sans-serif}
+a{color:var(--accent);text-underline-offset:.2em}a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+h1{font-size:clamp(2.2rem,6vw,3.7rem);line-height:1.1;letter-spacing:-.035em;margin:.7rem 0 1.2rem}
+h2{font-size:1.8rem;line-height:1.25}h3{font:700 1rem/1.5 system-ui,sans-serif;margin-top:1.6rem}
+section{padding:1rem 0 2.5rem}section+section{border-top:1px solid var(--line);padding-top:2rem}
+.lead{font-size:1.3rem}.note{padding:1rem 1.2rem;border-left:3px solid var(--accent);background:#edf1e9}
+.small,footer{font:14px/1.7 system-ui,sans-serif;color:var(--muted)}li{margin:.4rem 0}footer{border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header><div class="brand">Library of Urania</div><nav aria-label="Page sections"><a href="#about">About</a><a href="#privacy">Privacy policy</a><a href="#terms">Terms of use</a></nav></header>
+<main>
+<section id="about" aria-labelledby="title">
+<p class="small">A personal research tool</p>
+<h1 id="title">Research Library Indexer</h1>
+<p class="lead">Organising a private scholarly library, and making its contents easier to find and read.</p>
+<p>Research Library Indexer is a personal application operated by the Library of Urania account owner. It observes the owner's library in Google Drive, uses a Google Sheets Catalogue to describe holdings, and prepares search and reading data for the owner's authorised tools.</p>
+<h2>Why it connects to Google</h2>
+<ul>
+<li><strong>Drive metadata:</strong> identifies files and tracks names, locations and changes so local observations remain connected to the correct Drive objects.</li>
+<li><strong>Google Sheets:</strong> reads and, where the owner's workflow requires it, updates the library Catalogue and related index information.</li>
+</ul>
+<p>The local library workflow also reads synchronised documents, extracts text, and prepares private hosted search data. Document processing and file changes are separate operations controlled by the owner.</p>
+<p class="note">This website provides application information. It does not provide access to the library, display its holdings, request Google permissions, or offer public registration.</p>
+<p>For questions about authorisation, use the support contact displayed on the application's Google consent screen.</p>
+<p><a href="#privacy">Read the privacy policy</a> or <a href="#terms">terms of use</a>.</p>
+</section>
+<section id="privacy" aria-labelledby="privacy-heading">
+<h2 id="privacy-heading">Privacy policy</h2>
+<p class="small">Last updated: 27 October 2026</p>
+<h3>Purpose and operator</h3>
+<p>This policy describes the personal Research Library Indexer application operated by the Library of Urania account owner. Access is intended for the owner's private research workflow.</p>
+<h3>Google data accessed and used</h3>
+<p>The application uses authorised Google Drive metadata, including file identifiers, names, locations, modification information and available checksums, to observe the library and maintain file identity. It uses authorised Google Sheets data to read and maintain bibliographic descriptions and library state.</p>
+<p>Locally synchronised library documents and their extracted text are used to support document processing, search and reading. These functions use only the permissions and connections separately authorised by the owner.</p>
+<h3>Storage and access</h3>
+<p>Library observations, Catalogue captures, extracted text, processing records and diagnostics are stored in the owner's local environment. Derived text and search data may be transferred to the owner's hosted library service and accessed through authorised reading tools, including connected AI assistants when the owner requests their use.</p>
+<p>Local Google OAuth credentials are protected using Windows encryption. Credentials are not included in this website. The library and its Catalogue are not made public by publishing these informational pages.</p>
+<h3>Sharing and providers</h3>
+<p>The application does not sell Google user data or use it for advertising. Data is used for the library functions described here. Google, the owner's hosting providers and any connected tools selected by the owner process data according to their applicable terms and policies.</p>
+<h3>Retention and control</h3>
+<p>Library data is retained for the owner's research and operational recovery. Revoking Google access prevents future authorised API access but does not automatically erase existing local or hosted copies. The owner controls deletion of those copies and derived records through the relevant systems.</p>
+<p>Google access can be reviewed and revoked through <a href="https://myaccount.google.com/connections">Google Account connections</a>. For questions, use the support contact shown on the Google consent screen.</p>
+<h3>This informational website</h3>
+<p>This page contains no analytics scripts, advertising, forms or application cookies. GitHub Pages hosts the website and may collect connection information, including visitors' IP addresses, for security purposes. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
+<h3>Changes</h3>
+<p>This policy will be updated when the application's relevant data practices change.</p>
+</section>
+<section id="terms" aria-labelledby="terms-heading">
+<h2 id="terms-heading">Terms of use</h2>
+<p class="small">Last updated: 27 October 2026</p>
+<p>Research Library Indexer is a personal research tool for its owner and separately authorised access. This informational site does not offer public access to the application or grant rights to any library material.</p>
+<p>Extracted text, bibliographic suggestions and search results can contain errors. Check source documents before relying on quotations, page references or research conclusions.</p>
+<p>Use of Google and other connected services remains subject to their applicable terms. The application provides no promise of uninterrupted availability or error-free extraction.</p>
+<p>Questions about the application can be directed to the support contact shown on its Google consent screen.</p>
+</section>
+</main>
+<footer>Research Library Indexer · Library of Urania<br>Public application information. Private research library.</footer>
+</body>
+</html>
